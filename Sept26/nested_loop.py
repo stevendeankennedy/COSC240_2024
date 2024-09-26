@@ -8,6 +8,11 @@
 
 num = int(input('>'))
 
+# print some numbers
+for i in range(num):
+    print(i, end='')
+print()
+
 # draw a box
 for i in range(num):
     for j in range(num):
@@ -23,7 +28,6 @@ for i in range(num):
     print() 
 
 # selection sort
-
 my_list = [6,1,5,4,3]
 print('before:', my_list)
 for j in range(len(my_list)):
